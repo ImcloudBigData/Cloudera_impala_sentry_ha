@@ -6,7 +6,7 @@
 
 ### How do I get set up? ###
 * pip install cm_api
-* Clone git clone https://github.com/ImcloudBigData/Cloudera_impala_sentry_ha.git
+* git clone https://github.com/ImcloudBigData/Cloudera_impala_sentry_ha.git
 * vi conf/config.cfg
 * run
     * bin/impala_start.sh

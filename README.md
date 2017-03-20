@@ -15,25 +15,25 @@
 ### Config Details. ###
 * conf/config.cfg
 * Cloudera Manager Setting
-    * host = <Cloudera Manager Server IP>
-    * port = <Cloudera Manager PORT>
-    * cm_id = <Cloudera Manager Login ID>
-    * cm_password = <Cloudera Manager Login Password>
-    * api_version = <Cloudera Manager Support Api Version>
-    * cdh_version = <CDH Version>
+    * host = Cloudera Manager Server IP
+    * port = Cloudera Manager PORT
+    * cm_id = Cloudera Manager Login ID
+    * cm_password = Cloudera Manager Login Password
+    * api_version = Cloudera Manager Support Api Version
+    * cdh_version = CDH Version
 
 * Cluster Setting
-    * cluster_name = <Target Cluster name>
-    * max_wait_secs_role = <Role restart wait>
-    * max_wait_secs = <Service restart wait>
+    * cluster_name = Target Cluster name
+    * max_wait_secs_role = Role restart wait
+    * max_wait_secs = Service restart wait
 
 * Impala
-    * impala_service_name = <Service Name>
-    * impala_role_types = <Role Type>
-    * impala_role_restore_servers = <HA Target Server Host Name, must two>
+    * impala_service_name = Service Name
+    * impala_role_types = Role Type
+    * impala_role_restore_servers = HA Target Server Host Name, must two
 
 * Sentry
-    * sentry_restore_target_servers = <HA Target Server Host Name, must two>
-    * sentry_service_name = <Service Name>
-    * sentry_auto_restart_target = <Relevant services.>
-    * sentry_delay_secs = <Check kerberos setting and wait>
+    * sentry_restore_target_servers = HA Target Server Host Name, must two
+    * sentry_service_name = Service Name
+    * sentry_auto_restart_target = Relevant services
+    * sentry_delay_secs = Check kerberos setting and wait
